@@ -1,0 +1,7 @@
+version: "3"
+services: 
+    repl:
+        build: ./cl
+        command: ros run
+        volumes:
+            - ./root:/usr/src/root
